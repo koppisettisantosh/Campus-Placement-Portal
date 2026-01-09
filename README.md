@@ -1,8 +1,10 @@
 # Campus Placement Portal
+_________________________________________
 
 The **Campus Placement Portal** is a web-based application designed to automate and manage the campus recruitment process efficiently. It provides a centralized platform for **students, recruiters, and placement administrators**, reducing manual effort and improving transparency.
 
 ## 🚀 Features
+_________________________________________
 
 ### 👨‍🎓 Student Module
 - Student registration and login
