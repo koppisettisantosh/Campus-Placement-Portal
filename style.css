@@ -1,11 +1,11 @@
-/* Reset default spacing */
+/* Reset */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* Body styling */
+/* Body */
 body {
     font-family: Arial, Helvetica, sans-serif;
     background-color: #f4f6f8;
@@ -20,11 +20,7 @@ header {
     text-align: center;
 }
 
-header h1 {
-    margin-bottom: 5px;
-}
-
-/* Navigation bar */
+/* Navigation */
 nav {
     background-color: #0055a5;
     padding: 12px;
@@ -46,84 +42,47 @@ nav a:hover {
 section {
     background-color: white;
     margin: 20px;
-    margin-bottom: 8px;
+    padding: 20px;
+    border-radius: 6px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+section h2 {
+    color: #003366;
+    margin-bottom: 10px;
 }
 
 /* Footer */
-    padding: 20px;
-    border-radius: 6px;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-    width: 100%;
-}
-    nav a {
-    }
-
-    border-color: #0055a5;
-}
-    section {
-        margin: 10px;
-    }
-}
-}
-
-/* Extra links */
-}
-.login-container a {
-    color: #0055a5;
-}
-
-.login-container a:hover {
-    text-decoration: underline;
-}
-    text-decoration: none;
-
-    margin-top: 15px;
-.login-container p {
-    text-align: center;
-/* Center the login container */
-    outline: none;
-.login-container button:hover {
+footer {
     background-color: #003366;
-.login-container {
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
 }
 
-/* Button hover */
+/* Login Page */
+.login-container {
     width: 350px;
+    margin: 80px auto;
     background-color: white;
     padding: 25px;
     border-radius: 8px;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
-    font-size: 16px;
-    cursor: pointer;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.15);
 }
-.login-container select:focus {
 
-    border: none;
-    border-radius: 5px;
-/* Login heading */
 .login-container h2 {
     text-align: center;
     margin-bottom: 20px;
     color: #003366;
-/* Focus effect */
-    padding: 10px;
-    background-color: #0055a5;
-    color: white;
-.login-container input:focus,
-    width: 100%;
 }
 
-.login-container button {
-/* Labels */
 .login-container label {
-/* Login button */
     display: block;
     margin-bottom: 6px;
     font-weight: bold;
-
 }
 
-/* Inputs and select */
 .login-container input,
 .login-container select {
     width: 100%;
@@ -133,22 +92,45 @@ section {
     border-radius: 5px;
 }
 
-    margin: 80px auto;
+.login-container input:focus,
+.login-container select:focus {
+    outline: none;
+    border-color: #0055a5;
+}
+
+.login-container button {
+    width: 100%;
+    padding: 10px;
+    background-color: #0055a5;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.login-container button:hover {
+    background-color: #003366;
+}
+
+.login-container p {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.login-container a {
+    color: #0055a5;
+    text-decoration: none;
+}
+
+.login-container a:hover {
+    text-decoration: underline;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    nav a {
         display: block;
         margin: 8px 0;
-/* Responsive design */
-@media (max-width: 768px) {
-
-
-    padding: 10px;
-    position: fixed;
-    bottom: 0;
-
-    color: white;
-    text-align: center;
-
-
-
-footer {
-    background-color: #003366;
-
+    }
+}
