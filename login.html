@@ -1,16 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
 <head>
-  <title>Login</title>
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <title>Login | Campus Placement Portal</title>
+    <link rel="stylesheet" href="./style.css">
 </head>
 
 <body>
-  <h1>Login</h1>
 
-  <form>
-    <input type="text" placeholder="Username"><br><br>
-    <input type="password" placeholder="Password"><br><br>
-    <button>Login</button>
-  </form>
+<div class="login-container">
+    <h2>Login</h2>
+
+    <form>
+        <label>Email</label>
+        <input type="email" required>
+
+        <label>Password</label>
+        <input type="password" required>
+
+        <label>User Type</label>
+        <select required>
+            <option>Student</option>
+            <option>Company</option>
+            <option>Admin</option>
+        </select>
+
+        <button type="submit">Login</button>
+    </form>
+
+    <p>New user? <a href="#">Register</a></p>
+</div>
+
 </body>
 </html>
-
